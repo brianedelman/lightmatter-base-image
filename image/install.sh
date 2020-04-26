@@ -11,4 +11,6 @@ run minimal_apt_get_install git
 
 run /lm_build/python.sh
 run /lm_build/node.sh
+run /lm_build/nginx.sh
+
 run /lm_build/finalize.sh
