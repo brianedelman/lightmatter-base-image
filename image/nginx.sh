@@ -2,7 +2,7 @@
 set -e
 source /lm_build/buildconfig
 
-run apt-get install -y nginx libnginx-mod-http-perl
+run apt-get install -y nginx
 
 run cp /lm_build/config/nginx.conf /etc/nginx/nginx.conf
 
